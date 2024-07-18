@@ -1,0 +1,390 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Playwrite+HR+Lijeva:wght@100..400&display=swap');
+  </style>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: '#E0334C',
+          },
+          fontFamily: {
+            // 'sans': ['ui-sans-serif', 'system-ui', ...],
+            // 'serif': ['ui-serif', 'Georgia', ...],
+            // 'mono': ['ui-monospace', 'SFMono-Regular', ...],
+            // 'display': ['Oswald'],
+            'body': ['"Inter", sans-serif', ],
+            // jeva: ['"Playwrite HR Lijeva", cursive'],
+            }
+        }
+    }
+    }
+  </script>
+  <title>Petrol Padi</title>
+</head>
+<body class="font-body">
+    <div class="w-[1440px] mx-auto">
+        <section>
+            <nav class="h-[80px] flex items-center justify-between w-[100%] px-[56px]">
+                <a href="./index.html"><img src="./images/petrol padi logo blue and red 1.png" alt="Petrol Padi Logo" class="h-[40px] "></a>
+                <div class="flex justify-between gap-[32px]">
+                    <a href=""><p class="font-medium text-[16px] hover:text-primary focus:text-primary" >Why PetrolPadi?</p></a>
+                    <a href="./aboutUs.html"><p class="font-medium text-[16px] hover:text-primary focus:text-primary">About Us</p></a>
+                    <a href="./contactUs.html"><p class="font-medium text-[16px] hover:text-primary focus:text-primary" >Contact Us</p></a>
+                </div>
+            </nav>
+        </section>
+        <section>
+            <div class="mx-[56px] relative mt-[16px] h-[800px] w-[1328px] overflow-hidden rounded-[16px] ">
+                <img src="./images/Hero Pic.jpg" alt="Petrol Station Background Image" class="object-fill -translate-y-[950px] absolute">
+                <div class="absolute bg-black/30 h-[800px] w-[1328px] "></div>
+                <div class="mx-[260px] relative mt-[208.5px]">
+                    <p class="font-medium text-white text-[20px] text-center mb-[24px]">Welcome to Petrol Padi!</p>
+                    <h1 class="font-bold text-white text-[56px] text-center">Your Ultimate Fuel Companion Across Nigeria </h1>
+                    <div class="mt-[32px] flex justify-center gap-[8px]">
+                        <img src="./images/Google Play.png" alt="Google Play logo" class="h-[56px]">
+                        <img src="./images/App store.png" alt="App store logo" class="h-[56px]">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div>
+                <p class="font-[600] text-black text-[20px] text-center mt-[80px] mb-[48px]">Trusted by some amazing companies</p>
+                <div class="mb-[120px] flex gap-[24px] justify-between ">
+                    <img src="./images/Mobil.png" alt="mobil logo" class="h-[46px]">
+                    <img src="./images/Quest.png" alt="quest logo" class="h-[46px]">
+                    <img src="./images/Rainoil.png" alt="rain oil logo" class="h-[46px]">
+                    <img src="./images/North west.png" alt=" north west logo" class="h-[46px]">
+                    <img src="./images/Pinnacle.png" alt="pinnacle logo" class="h-[46px]">
+                    <img src="./images/E oil.png" alt="E oil logo" class="h-[46px]">
+                    <img src="./images/MRS.png" alt="Mrs logo" class="h-[46px]">
+                    <img src="./images/Chipet.png" alt="chipet logo" class="h-[46px]">
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="mx-[110px] mt-40px">
+                <p class="font-[600] text-[#E0334C] text-[20px] text-center mt-[40px] mb-[12px]">FEATURES</p>
+                <h3 class="font-bold text-[40px] text-center mb-[24px]">Why Choose Us?</h3>
+                <p class="text-center text-[20px] opacity-50">We have so much to offer you something something something</p>
+            </div>
+            <div class="p-[80px] flex justify-between gap-[64px]">
+                <div class="w-[576px]">
+                    <h4 class="text-[32px] font-bold">Latest News</h4>
+                    <p class="text-[20px] opacity-50 mt-[24px] w-[90%]">Stay updated with the latest news and trends in the fuel market.</p>
+                    <div class="mt-[64px] flex gap-[16px]">
+                        <img src="./images/newsletter svg.svg" alt="newsletter icon" class="h-[58px] p-[13px] bg-[#E0334C] rounded-[8px] ">
+                        <div>
+                            <h5 class="font-semibold text-[20px]">Latest Developments in the Fuel Industry</h5>
+                            <p class="mt-[12px] text-[16px] opacity-50">Stay informed with the most recent news from the fuel industry. From policy changes and technological advancements to market dynamics and company updates, we bring you all the critical information you need to stay ahead.</p>
+                        </div>
+                    </div>
+                </div>
+                <img src="./images/Latest News pic1.png" alt="image show some latest news" class="h-[432px] w-[640px] rounded-[12px]">   
+            </div>
+            <div class="p-[80px] flex justify-between gap-[64px]">
+                <img src="./images/Real time image.png" alt="image show some latest news" class="h-[432px] w-[640px] rounded-[12px]"> 
+                <div class="w-[576px]">
+                    <h4 class="text-[32px] font-bold">Real-Time Price Updates</h4>
+                    <p class="text-[20px] opacity-50 mt-[24px]">Stay Informed with the latest prices of petrol, diesel and gas across Nigeria</p>
+                    <div class="mt-[64px] flex gap-[16px]">
+                        <img src="./images/gas svg.svg" alt="newsletter icon" class="h-[58px] p-[13px] bg-[#E0334C] rounded-[8px] ">
+                        <div>
+                            <h5 class="font-semibold text-[20px]">Detailed Insights into Fuel Prices</h5>
+                            <p class="mt-[12px] text-[16px] opacity-50">Get comprehensive analysis on fuel price fluctuations, trends, and predictions. Our experts provide in-depth reports to help you understand the factors affecting fuel prices and make informed decisions</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="px-[80px] pt-[80px] flex justify-between gap-[64px]">
+                <div class="w-[576px]">
+                    <h4 class="text-[32px] font-bold">Order Management</h4>
+                    <p class="text-[20px] opacity-50 mt-[24px]">Place, track, and manage your orders and payments easily with our intuitive order management feature.</p>
+                    <div class="mt-[64px] flex gap-[16px]">
+                        <img src="./images/fuel-truck svg.svg" alt="newsletter icon" class="h-[58px] p-[13px] bg-[#E0334C] rounded-[8px] ">
+                        <div>
+                            <h5 class="font-semibold text-[20px]">Effortless Ordering Process</h5>
+                            <p class="mt-[12px] text-[16px] opacity-50">Easily order petrol, diesel, and gas with just a few clicks, thanks to our hassle-free and efficient process that saves you time and effort.</p>
+                        </div>
+                    </div>
+                    <div class="mt-[44px] flex gap-[16px]">
+                        <img src="./images/fuel-truck svg.svg" alt="newsletter icon" class="h-[58px] p-[13px] bg-[#E0334C] rounded-[8px] ">
+                        <div>
+                            <h5 class="font-semibold text-[20px]">Track Your Orders & Payments Instantly</h5>
+                            <p class="mt-[12px] text-[16px] opacity-50">Track your orders in real-time from placement to delivery, keeping you informed at every step and ensuring you know the status and expected delivery time.</p>
+                        </div>
+                    </div>
+                </div>
+                <img src="./images/Order Management image.png" alt="image show some latest news" class="h-[444px] w-[640px] rounded-[12px]">   
+            </div>
+            <div class="mt-[108px] mb-[64px] flex justify-center gap-[8px]">
+                <img src="./images/Black Google Play.png" alt="Google Play logo" class="h-[56px]">
+                <img src="./images/Black App store.png" alt="App store logo" class="h-[56px]">
+            </div>
+        </section>
+        <section>
+            <div>
+                <h3 class="text-[40px] font-semibold text-center mt-[64px] mb-[48px]">We have depot listings from different zones</h3>
+                <div class="flex justify-center gap-[24px] mb-[80px]">
+                    <div class="h-[72px] w-[175px] bg-[#FFF8F9] flex justify-center items-center ">
+                        <p class="text-[20px] font-semibold rounded-[4px] text-center bg-[#FFF8F9] ">Lagos</p>
+                    </div>
+                    <div class="h-[72px] w-[175px] bg-[#FFF8F9] flex justify-center items-center rounded-[4px]">
+                        <p class="text-[20px] font-semibold">Warri</p>
+                    </div>
+                    <div class="h-[72px] w-[175px] bg-[#FFF8F9] flex justify-center items-center rounded-[4px]">
+                        <p class="text-[20px] font-semibold">Calaba</p>
+                    </div>
+                    <div class="h-[72px] w-[175px] bg-[#FFF8F9] flex justify-center items-center rounded-[4px]">
+                        <p class="text-[20px] font-semibold font-body">Port Harcourt</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="relative overflow-hidden">
+                <div class="h-[782px] w-[100%] bg-[#110A0B] absolute "></div>
+                <div class="blur-[120px] h-[887px] w-[887px] bg-[#FFFFFF] opacity-[0.05] rounded-full absolute -top-[479px] -left-[483px]"></div>
+                <div class="blur-[120px] h-[887px] w-[887px] bg-[#FFFFFF] opacity-[0.05] rounded-full absolute top-[332px] left-[1000px]"></div>
+                <div class="mx-[56px] my-[140px] flex justify-between gap-[64px] relative">
+                    <img src="./images/How it works image.png" alt="man grabbing fuel nozzle" class="h-[502px] w-[548px]">
+                    <div class="w-[716px]">
+                        <div class="mb-[56px]">
+                            <p class="font-bold text-[#E0334C] text-[20px] mb-[12px]">FEATURES</p>
+                            <h3 class="font-bold text-white text-[40px] ">Few Easy Steps and Done</h3>
+                        </div>
+                        <div class="bg-[#1D1C1C] w-[716px] h-[344px] p-[32px] rounded-[12px]">
+                            <div class="flex">
+                                <div class="h-[48px] w-[48px] bg-[#E0334C] flex justify-center items-center rounded-full">
+                                    <p class="text-[24px] text-white font-semibold">1</p>
+                                </div>
+                                <div class="ml-[16px]">
+                                    <p class="text-white text-[20px] font-bold">Sign Up</p>
+                                    <p class="text-white text-[20px] mt-[4px]">Create an account using your email and start exploring.</p>
+                                </div>
+                            </div>
+                            <div class="flex my-[40px]">
+                                <div class="h-[48px] w-[48px] bg-[#E0334C] flex justify-center items-center rounded-full">
+                                    <p class="text-[24px] text-white font-semibold">2</p>
+                                </div>
+                                <div class="ml-[16px]">
+                                    <p class="text-white text-[20px] font-bold">Track Prices</p>
+                                    <p class="text-white text-[20px] mt-[4px]">View real-time fuel prices and trends across Nigeria.</p>
+                                </div>
+                            </div>
+                            <div class="flex">
+                                <div class="h-[48px] w-[48px] bg-[#E0334C] flex justify-center items-center rounded-full">
+                                    <p class="text-[24px] text-white font-semibold">3</p>
+                                </div>
+                                <div class="ml-[16px]">
+                                    <p class="text-white text-[20px] font-bold">Place Orders</p>
+                                    <p class="text-white text-[20px] mt-[4px]">Easily place and track your fuel orders through the app.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>                    
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="py-[80px] px-[56px]">
+                <div class="relative">
+                    <p class="font-semibold text-[#E0334C] text-[20px] text-center my-[10px]">WHAT THEY SAY</p>
+                    <h3 class="font-bold mb-[10px] text-center  text-[40px] ">See What Our Users Think About Us</h3>
+                </div>
+                <div class="mt-[64px]">
+                    <div class="flex mb-[24px] gap-[24px]">
+                        <div class="p-[16px] rounded-[16px] border-[1px] border-[#E8E8E8] h-[170px]">
+                            <div class="flex">
+                                <div class="h-[24px] w-[24px] overflow-hidden rounded-full">
+                                    <img src="./images/profile pic 1.png" alt="profile pic" class="120px">                        
+                                </div>
+                                <p class="ml-[8px] italic">Bruce Lee</p>                                
+                            </div>
+                            <div class="mt-[16px]">
+                                <p class="text-[16px]">introduction text, lorem is too boring this is a freestly message... hahahahahah 🤣🤣🤣, continuing the freestyle message hahahahah</p>
+                            </div>
+                        </div>
+                        <div class="p-[16px] rounded-[16px] border-[1px] border-[#E8E8E8] h-[170px]">
+                            <div class="flex">
+                                <div class="h-[24px] w-[24px] overflow-hidden rounded-full">
+                                    <img src="./images/profile pic 1.png" alt="profile pic" class="120px">                        
+                                </div>
+                                <p class="ml-[8px] italic">Bruce Lee</p>                                
+                            </div>
+                            <div class="mt-[16px]">
+                                <p class="text-[16px]">introduction text, lorem is too boring this is a freestly message... hahahahahah 🤣🤣🤣, continuing the freestyle message hahahahah</p>
+                            </div>
+                        </div>
+                        <div class="p-[16px] rounded-[16px] border-[1px] border-[#E8E8E8] h-[170px]">
+                            <div class="flex">
+                                <div class="h-[24px] w-[24px] overflow-hidden rounded-full">
+                                    <img src="./images/profile pic 1.png" alt="profile pic" class="120px">                        
+                                </div>
+                                <p class="ml-[8px] italic">Bruce Lee</p>                                
+                            </div>
+                            <div class="mt-[16px]">
+                                <p class="text-[16px]">introduction text, lorem is too boring this is a freestly message... hahahahahah 🤣🤣🤣, continuing the freestyle message hahahahah</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex gap-[24px]">
+                        <div class="p-[16px] rounded-[16px] border-[1px] border-[#E8E8E8] h-[170px]">
+                            <div class="flex">
+                                <div class="h-[24px] w-[24px] overflow-hidden rounded-full">
+                                    <img src="./images/profile pic 1.png" alt="profile pic" class="120px">                        
+                                </div>
+                                <p class="ml-[8px] italic">Bruce Lee</p>                                
+                            </div>
+                            <div class="mt-[16px]">
+                                <p class="text-[16px]">introduction text, lorem is too boring this is a freestly message... hahahahahah 🤣🤣🤣, continuing the freestyle message hahahahah</p>
+                            </div>
+                        </div>
+                        <div class="p-[16px] rounded-[16px] border-[1px] border-[#E8E8E8] h-[170px]">
+                            <div class="flex">
+                                <div class="h-[24px] w-[24px] overflow-hidden rounded-full">
+                                    <img src="./images/profile pic 1.png" alt="profile pic" class="120px">                        
+                                </div>
+                                <p class="ml-[8px] italic">Bruce Lee</p>                                
+                            </div>
+                            <div class="mt-[16px]">
+                                <p class="text-[16px]">introduction text, lorem is too boring this is a freestly message... hahahahahah 🤣🤣🤣, continuing the freestyle message hahahahah</p>
+                            </div>
+                        </div>
+                        <div class="p-[16px] rounded-[16px] border-[1px] border-[#E8E8E8] h-[170px]">
+                            <div class="flex">
+                                <div class="h-[24px] w-[24px] overflow-hidden rounded-full">
+                                    <img src="./images/profile pic 1.png" alt="profile pic" class="120px">                        
+                                </div>
+                                <p class="ml-[8px] italic">Bruce Lee</p>                                
+                            </div>
+                            <div class="mt-[16px]">
+                                <p class="text-[16px]">introduction text, lorem is too boring this is a freestly message... hahahahahah 🤣🤣🤣, continuing the freestyle message hahahahah</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="py-[80px] px-[56px] flex gap-[80px]">
+                <div class="">
+                    <p class="font-semibold text-[#E0334C] text-[20px]">HOW CAN WE HELP?</p>
+                    <h3 class="font-bold my-[10px] text-[40px] ">Frequently Asked Questions</h3>
+                    <p class="text-[18px]">Still have questions? Our friendly team would love to hear from you.</p>
+                    <button class="rounded-[8px] px-[24px] py-[12px] mt-[32px] bg-black text-white text-[16px]">Contact Us</button>
+                </div>
+                <div class="w-[671.66px] ">
+                    <div class="flex p-[24px] border border-[#E8E8E8] rounded-[8px] hover:shadow-lg">
+                        <div class="w-[567px]">
+                            <p class="text-[20px] font-medium">A question that users might ask/have</p>
+                            <p class="text-[18px] opacity-70 mt-[16px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        </div>
+                        <div class="h-[50.66px] w-[50.66px] bg-[#E0334C] flex justify-center items-center rounded-full">
+                            <img src="./images/drop down.svg" alt="drop down icon" class="">
+                        </div>
+                    </div>
+                    <div class="flex p-[24px] border border-[#E8E8E8] rounded-[8px] hover:shadow-lg mt-[16px]">
+                        <div class="w-[567px] flex items-center">
+                            <p class="text-[20px] font-medium">A question that users might ask/have</p>
+                        </div>
+                        <div class="h-[50.66px] w-[50.66px] bg-white flex justify-center items-center shadow-xl rounded-full">
+                            <img src="./images/right arrow.svg" alt="drop down icon" class="">
+                        </div>
+                    </div>
+                    <div class="flex p-[24px] border border-[#E8E8E8] rounded-[8px] hover:shadow-lg mt-[16px]">
+                        <div class="w-[567px] flex items-center">
+                            <p class="text-[20px] font-medium">A question that users might ask/have</p>
+                        </div>
+                        <div class="h-[50.66px] w-[50.66px] bg-white flex justify-center items-center shadow-xl rounded-full">
+                            <img src="./images/right arrow.svg" alt="drop down icon" class="">
+                        </div>
+                    </div>
+                    <div class="flex p-[24px] border border-[#E8E8E8] rounded-[8px] hover:shadow-lg mt-[16px]">
+                        <div class="w-[567px] flex items-center">
+                            <p class="text-[20px] font-medium">A question that users might ask/have</p>
+                        </div>
+                        <div class="h-[50.66px] w-[50.66px] bg-white flex justify-center items-center shadow-xl rounded-full">
+                            <img src="./images/right arrow.svg" alt="drop down icon" class="">
+                        </div>
+                    </div>                    
+                </div>                
+            </div>
+        </section>
+        <section>
+            <div class="relative">
+                <div class="h-[569px] w-[100%] bg-[#E0334C] absolute "></div>
+                <div class="px-[56px] py-[120px] h-[640px] flex justify-between relative">
+                    <div class=" w-[568px]">
+                        <p class="font-semibold text-white text-[20px]">DOWNLOAD NOW!</p>
+                        <h3 class="font-bold mt-[12px] mb-[24px] text-white text-[40px] ">Start Track Your Business Expenses Today</h3>
+                        <p class="text-[20px] text-white">Download the app now and take control of your fuel purchasing decisions.</p>
+                        <div class="mt-[24px] flex justify-between gap-[8px]">
+                            <img src="./images/Black Google Play.png" alt="Google Play logo" class="h-[56px]">
+                            <img src="./images/Black App store.png" alt="App store logo" class="h-[56px]">
+                        </div>
+                    </div>
+                    <img src="./images/start track phone image.png" alt="two mobile phones" class="h-[449px] w-[527.95px]">
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="px-[56px] py-[80px] flex justify-between">
+                <div class="w-[332px]">
+                    <img src="./images/petrol padi logo blue and red 1.png" alt="petrol padi logo" class="h-[40px]">
+                    <p class="py-[24px] opacity-50 text-[18px]">A really cool summary of the product offering and like what they offer?</p>
+                    <div class="flex gap-[22px] w-[177px]">
+                        <img src="./images/facebook svg.svg" alt="facebook logo">
+                        <img src="./images/Twitter svg.svg" alt="twitter logo">
+                        <img src="./images/Instagram svg.svg" alt="Instagram logo">
+                        <img src="./images/LinkedIn svg.svg" alt="Linkedin logo">
+                        <img src="./images/YouTube svg.svg" alt="youtube logo">
+                    </div>
+                </div>
+                <div class="flex gap-[64px]">
+                    <div>
+                        <p class="text-[20px] font-semibold text-[#1A202C]">Product</p>
+                        <p class="text-[16px] my-[24px] ">Why Choose Us?</p>
+                        <p class="text-[16px]  ">Contact Us</p>
+                        <p class="text-[16px] my-[24px] ">About Us</p>
+                        <p class="text-[16px] mb-[24px] ">Career</p>
+                        <p class="text-[16px]  ">Contact Us</p>
+                    </div>
+                    <div class="w-[227px]">
+                        <p class="text-[20px] font-semibold text-[#1A202C]">Company Info</p>
+                        <div class="flex items-center">
+                            <img src="./images/Email.svg" alt="email icon" class="h-[20px] mr-[6px] ">
+                            <p class="text-[18px] my-[24px]">contact@company.com</p>                            
+                        </div>
+                        <div class="flex items-center">
+                            <img src="./images/telephone svg.svg" alt="email icon" class="h-[20px] mr-[6px] ">
+                            <p class="text-[18px] ">(414) 687 - 5892</p>                            
+                        </div>
+                        <div class="flex items-center">
+                            <img src="./images/location pointer svg.svg" alt="email icon" class="h-[20px] mr-[6px] -mt-[26px]">
+                            <p class="text-[18px] my-[24px]">794 Mcallister St San Francisco, 94102</p>                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="border-[1px] border-[#C82A3C/10] w-[1200px] mb-[80px] mx-auto"></div>
+            <div class="mb-[80px] mx-[56px] flex justify-between">
+                <p class="text-[16px] opacity-50">© Vibraniuumtechnologies 2024</p>
+                <div class="flex justify-between gap-[32px]">
+                    <p class="text-[16px] font-semibold ">Privacy Policy</p>
+                    <p class="text-[16px] font-semibold border-x-2 border-x-[#1A202C] px-[32px]">Terms & Conditions</p>
+                    <p class="text-[16px] font-semibold ">Cookie Policy</p>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
+
